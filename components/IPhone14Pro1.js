@@ -27,12 +27,12 @@ const IPhone14Pro1 = ({
       <Image
         style={[styles.vectorIcon, styles.iconLayout]}
         contentFit="cover"
-        source={require("../assets/vector.png")}
+        source={require("../assets/vector2.png")}
       />
       <Image
         style={[styles.vectorIcon1, styles.iconLayout]}
         contentFit="cover"
-        source={require("../assets/vector1.png")}
+        source={require("../assets/vector11.png")}
       />
       <Text
         style={[styles.readyToSimplify, styles.readyToSimplifyFlexBox]}
@@ -52,7 +52,7 @@ const IPhone14Pro1 = ({
       <Image
         style={[styles.logoIcon, styles.iconLayout]}
         contentFit="cover"
-        source={require("../assets/logo-icon.png")}
+        source={require("../assets/logo-icon1.png")}
       />
     </View>
   );
