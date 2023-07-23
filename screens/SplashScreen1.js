@@ -15,8 +15,7 @@ const SplashScreen1 = () => {
         iPhone14Pro1Top={0}
         iPhone14Pro1Left={0}
       />
-      <Text style={styles.parentCoach}>{`Parent 
-Coach`}</Text>
+      <Text style={styles.parentCoach}>{`Parent Coach`}</Text>
       <PrimaryButton
         primaryButtonPosition="absolute"
         primaryButtonTop={685}
@@ -32,7 +31,8 @@ const styles = StyleSheet.create({
     top: 378,
     left: 94,
     fontSize: 30,
-    lineHeight: 16,
+    lineHeight: 28,
+    // marginVertical: 5,
     fontWeight: "700",
     fontFamily: FontFamily.interBold,
     color: Color.white,
